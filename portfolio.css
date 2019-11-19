@@ -1,6 +1,6 @@
 body {
 
-    margin: 0px;
+    margin: 10px;
     background-color: black;
     color: white;
 
@@ -99,6 +99,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+       
+
 }
 
 
@@ -114,6 +116,8 @@ body {
     text-align: center;
     color: white;
     font-family: 'Rock Salt', cursive;
+     
+   
 }
 
 .aboutPara{
@@ -189,6 +193,9 @@ input[type=submit]:hover {
     width: 100%;
     background-color: #131212;
     color: rgb(245, 239, 239);
-    text-align: center;
-    
+    text-align: center;   
+}
+
+.social{
+    margin-left: auto;
 }
