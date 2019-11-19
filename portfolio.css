@@ -1,0 +1,170 @@
+body {
+
+    margin: 0px;
+    background-color: black;
+
+}
+
+
+
+.navbar-container {
+    height: 75px;
+    background-color: black;
+    font-size: 1.4rem;
+    top: 0px;
+    border-color: gold;
+}
+
+.navbar {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 0;
+    font-family: 'Rock Salt', cursive;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 0 40px;
+}
+
+.nav-menu {
+    margin-left: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.title-container {
+    background-image: url("portfolio_images/firetunnel.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #F79A17;
+    font-family: 'Rock Salt', cursive;
+    font-size: 90px;
+}
+
+.main {
+    background-color: green;
+}
+
+.about-container {
+    background-color:black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* title*/
+.about-title {
+    text-align: center;
+    color:#F79A17;
+}
+
+.projects-container {
+    background-image: url("portfolio_images/hall.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-title {
+    text-align: center;
+    color: #F79A17;
+}
+
+.aboutPara{
+    text-align: center;
+    color: #F79A17;
+}
+
+
+.projects{
+    text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid navy;
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: yellow;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: red;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #24044e;
+    padding: 20px;
+    color: white;
+}
+
+.row{
+    text-align: center;
+}
+
+.mw-100{
+    border-radius: 90px;
+
+}
+
+.footer {
+    display: flex;
+    left: 0;
+    bottom: 100%;
+    width: 100%;
+    background-color: #535c68;
+    color: black;
+    text-align: center;
+    
+}
