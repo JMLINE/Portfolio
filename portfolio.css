@@ -3,11 +3,12 @@ body {
     margin: 10px;
     background-color: black;
     color: white;
+    overflow-x: hidden;
 
 }
 
 .navbar-container {
-    height: 75px;
+    height: 50px;
     background-color: black;
     font-size: 1.4rem;
     top: 0px;
@@ -43,14 +44,14 @@ body {
 }
 
 .title-container {
-    background-image: url("portfolio_images/stars.jpg");
+    background-image: url("portfolio_images/skyLines.jpg");
     width: 100%;
     height: 550px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    
-    
+
+
 }
 
 .title {
@@ -59,18 +60,52 @@ body {
     justify-content: center;
     align-items: center;
     height: 150%;
+    color: black;
+    font-size: 100px;
+    font-family: 'Rock Salt', cursive;
+
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250%;
+    color: red;
+    font-size: 100px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.about-title {
+    text-align: center;
     color: white;
     font-family: 'Rock Salt', cursive;
+    margin: 20px;
+}
+
+.about-container {
+    display: flex;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.aboutPara {
+    text-align: center;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
 }
 
 .quote-container {
-    background-image: url("portfolio_images/computer.jpg");
+    background-image: url("portfolio_images/computers.jpg");
     width: 100%;
     height: 400px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    
     
 }
 
@@ -80,12 +115,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 150%;
-    color: white;
-    font-family: 'Rock Salt', cursive;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .quote-container2 {
-    background-image: url("portfolio_images/tech.jpg");
+    background-image: url("portfolio_images/techs.jpg");
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -99,25 +134,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 150%;
-    color: white;
-    font-family: 'Rock Salt', cursive;
+    color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.main {
-    background-color: green;
+.row {
+    text-align: center;
 }
-
-.about-container {
-    background-color:black;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-       
-
-}
-
 
 .projects-container {
     width: 100%;
@@ -127,94 +150,81 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Rock Salt', cursive;
-   
+
 }
 
-.about-title {
-    text-align: center;
-    color: white;
-    font-family: 'Rock Salt', cursive;
-    margin: 20px;
-     
-   
-}
-
-.aboutPara{
-    text-align: center;
-    color: white;
-    font-family: 'Public Sans', sans-serif;
-}
-
-
-.projects{
+.projects {
     text-align: center;
     color: white;
     font-family: 'Rock Salt', cursive;
 }
-    
 
-    
+.contact_me {
 
-/* Style inputs with type="text", select elements and textareas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150%;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    margin: 40px;
+    font-size: 25pt;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #131212;
+    padding: 20px;
+    width: 50%;
+
+}
+
+
 input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
-    border: 1px solid navy;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    /* Rounded borders */
-   /* box-sizing: border-box;*/
-    /* Make sure that padding and width stays in place */
+    box-sizing: border-box;
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
     resize: vertical
-        /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
-    background-color:black;
+    background-color: #002F00;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
+    font-family: 'Rock Salt', cursive;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
-    background-color: red;
+    background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    background-color: #746b80;
-    padding: 20px;
-    color: white;
-}
 
-.row{
-    text-align: center;
-}
 
 
 .footer {
     display: flex;
     left: 0;
+    margin: 0px;
+    padding: 0px;
     bottom: 100%;
     width: 100%;
     background-color: #131212;
     color: rgb(245, 239, 239);
-    text-align: center;   
+    text-align: center;
 }
 
-.social{
+.social {
     margin-left: auto;
 }
